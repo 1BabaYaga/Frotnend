@@ -1,0 +1,20 @@
+
+[aria-label="para1"] {
+    color: red;
+}
+
+
+[class="colortext"] {
+	color: grey;
+}
+
+body{
+  background: red;
+  
+}
+
+h2, p {
+	color: green;
+}
+
+

@@ -1,0 +1,32 @@
+h2 {
+    font-size: 50px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: darkred; /* !important */
+}
+
+.first-title {
+    color: black;
+}
+
+#first-title {
+    color: blue;
+}
+
+[aria-label="first-title"] {
+    color: chartreuse;
+}
+
+/* id > attr > class > tag */
+
+div h2 {
+    color: darkmagenta;
+}
+
+div .first-title span {
+    color: green;
+}
+
+p {
+   color: red;
+}
