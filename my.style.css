@@ -4,8 +4,8 @@
 }
 
 
-[class="colortext"] {
-	color: grey;
+[class="color"] {
+	color: blue;
 }
 
 body{
@@ -15,6 +15,10 @@ body{
 
 h2, p {
 	color: green;
+}
+
+.colortext  {
+    color: floralwhite;
 }
 
 
