@@ -3,12 +3,11 @@
     color: red;
 }
 
-
-[class="color"] {
+.color {
 	color: blue;
 }
 
-body{
+body {
   background: red;
   
 }
