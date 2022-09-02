@@ -8,7 +8,7 @@
 }
 
 body {
-  background: red;
+  background: dimgray;
   
 }
 
@@ -20,4 +20,29 @@ h2, p {
     color: floralwhite;
 }
 
+.block-wrapper div {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px 50px 5px 10px;
+    margin: 0 15px 10px 0;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.block-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.block-wrapper div:first-child {
+    background-color: white;
+}
+
+.block-wrapper div:last-child {
+    background-color: #fff;
+    opacity: 0.1;
+}
+
+.block-wrapper div:nth-child(3) {
+    background-color: rgba(255, 255, 255, 0.5);
+}
 
